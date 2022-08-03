@@ -1,7 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-  background-color: #aaa;
+section > .container {
+  width: 935px;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }/*# sourceMappingURL=style.css.map */
