@@ -1,7 +1,59 @@
-section > .container {
+.container {
   width: 935px;
   display: grid;
   grid-template-columns: 1fr 350px;
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
+}
+
+.pitch {
+  height: 618px;
+  background: url("imgs/phone.png") no-repeat center;
+}
+
+.form form {
+  text-align: center;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: white;
+  padding: 1.5rem 2.5rem;
+}
+.form form .logo {
+  margin-bottom: 20px;
+}
+.form form input {
+  font-size: 0.775rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px 0 7px 8px;
+  border: 1px solid;
+  margin-bottom: 0.25rem;
+  overflow: hidden;
+  border-radius: 3px;
+  text-overflow: ellipsis;
+  outline: none;
+  background-color: #fafafa;
+}
+.form form button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin-top: 8px;
+  margin-right: 9px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 9px;
+  width: auto;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-transform: inherit;
+  border-radius: 4px;
+  color: #fafafa;
+  background-color: rgb(0, 149, 246);
+  border: 1px solid transparent;
+  position: relative;
+  cursor: pointer;
+}
+.form form button:disabled {
+  background-color: rgb(136, 180, 209);
+  pointer-events: none;
 }/*# sourceMappingURL=style.css.map */

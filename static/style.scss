@@ -1,11 +1,4 @@
-* {
-    // padding: 0;
-    // margin: 0;
-    // border: 0;
-    // box-sizing: border-box;
-  }
-
-section > .container{
+.container{
   width: 935px;
   display: grid;
   grid-template-columns: 1fr 350px;
@@ -13,5 +6,57 @@ section > .container{
 }
 
 .pitch{
-  
+  height: 618px;
+  background: url('imgs/phone.png') no-repeat center;
+}
+
+.form{
+  form{
+    text-align: center;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    padding: 1.50rem 2.5rem;
+    
+    .logo{
+      margin-bottom: 20px;
+    }
+    
+    input{
+      font-size: 0.775rem;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 9px 0 7px 8px;
+      border: 1px solid;
+      margin-bottom: 0.25rem;
+      overflow: hidden;
+      border-radius: 3px;
+      text-overflow: ellipsis;
+      outline: none;
+      background-color: #fafafa;
+    }
+
+    button{
+      appearance: none;
+      margin-top: 8px;
+      margin-right: 9px;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 5px 9px;
+      width: auto;
+      text-align: center;
+      text-overflow: ellipsis;
+      text-transform: inherit;
+      border-radius: 4px;
+      color: #fafafa;
+      background-color: rgba(0,149,246);
+      border: 1px solid transparent;
+      position: relative;
+      cursor: pointer;
+
+      &:disabled{
+      background-color: rgb(136, 180, 209);
+      pointer-events: none;
+      }
+    }
+  }
 }
