@@ -25,7 +25,6 @@ a{
 }
 
 .form{
-  margin-right: 32px;
   text-align: center;
   form{
     border: 1px solid rgb(219, 219, 219);
@@ -38,7 +37,7 @@ a{
     
     input{
       height: 36px;
-      font-size: 0.775rem;
+      font-size: 0.850rem;
       color: #262626;
       width: 100%;
       box-sizing: border-box;
@@ -48,7 +47,7 @@ a{
       margin-bottom: 0.25rem;
       overflow: hidden;
       border-radius: 3px;
-      outline: none;
+      outline: #000;
     }
 
     button{
@@ -57,7 +56,7 @@ a{
       margin-right: 9px;
       margin-bottom: 8px;
       font-size: 14px;
-      font-weight: 600;
+      // font-weight: 600;
       padding: 5px 9px;
       width: 100%;
       text-align: center;
@@ -76,11 +75,11 @@ a{
       }
     }
     .separator{
-      font-size: 13px;
+      font-size: 15px;
       color: #8e8e8e;
       text-transform: uppercase;
       top: 0.45em;
-      font-weight: bold;
+      // font-weight: bold;
       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
       margin: 1rem 0 1.625rem 0;
       display: flex;
@@ -101,7 +100,14 @@ a{
       color: #385185;
       font-weight: bold;
       display: flex;
+      justify-content: center;
       align-items: center;
+      margin: 0 auto 18px ;
+    }
+    
+    .forgot-password{
+      display: block;
+      color: #00376b;
     }
   }
 }
