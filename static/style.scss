@@ -5,6 +5,10 @@ background-color: #fafafa;
 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 .container{
   width: 935px;
   display: grid;
@@ -16,12 +20,14 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,
 
 .pitch{
   height: 618px;
+  margin-left: 64px;
   background: url('imgs/phone.png') no-repeat center;
 }
 
 .form{
+  margin-right: 32px;
+  text-align: center;
   form{
-    text-align: center;
     border: 1px solid rgb(219, 219, 219);
     background-color: white;
     padding: 1.50rem 2.5rem;
@@ -89,6 +95,13 @@ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,
         background-color: #dbdbdb;
         display: block;
       }
+    }
+
+    .login-with-facebook{
+      color: #385185;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
     }
   }
 }
