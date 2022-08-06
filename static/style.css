@@ -15,13 +15,13 @@ a {
   grid-template-columns: 1fr 350px;
   -moz-column-gap: 1.3rem;
        column-gap: 1.3rem;
-  margin: 0 auto;
+  margin: 120px auto 20px;
   margin-top: 120px;
 }
 
 .pitch {
   height: 618px;
-  margin-left: 74px;
+  margin-left: 64px;
   background: url("imgs/phone.png") no-repeat center;
 }
 
@@ -115,10 +115,24 @@ a {
 .form .signup a {
   color: #0095f6;
 }
-.form .message-get {
-  margin: 20px 20px 20px 20px;
-  text-align: center;
+.form .get-app .message-get {
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
 }
-.form .appstore {
-  margin-right: 32px;
+.form .get-app img {
+  width: 150px;
+}
+
+.footer {
+  width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer .links {
+  margin-bottom: 20px;
+}
+.footer .links a {
+  color: #8e8e8e;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
