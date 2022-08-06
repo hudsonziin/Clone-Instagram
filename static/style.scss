@@ -13,24 +13,24 @@ a{
   width: 935px;
   display: grid;
   grid-template-columns: 1fr 350px;
-  column-gap: 1.25rem;
+  column-gap: 1.30rem;
   margin: 0 auto;
   margin-top: 120px;
 }
 
 .pitch{
   height: 618px;
-  margin-left: 64px;
+  margin-left: 74px;
   background: url('imgs/phone.png') no-repeat center;
 }
 
 .form{
   text-align: center;
+  margin-bottom: 10px;
   form{
     border: 1px solid rgb(219, 219, 219);
     background-color: white;
     padding: 1.50rem 2.5rem;
-    
     .logo{
       margin-bottom: 20px;
     }
@@ -70,8 +70,8 @@ a{
       cursor: pointer;
 
       &:disabled{
-      background-color: rgb(136, 180, 209);
-      pointer-events: none;
+        background-color: rgb(136, 180, 209);
+        pointer-events: none;
       }
     }
     .separator{
@@ -95,10 +95,9 @@ a{
         display: block;
       }
     }
-
+    
     .login-with-facebook{
       color: #385185;
-      font-weight: bold;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -109,5 +108,27 @@ a{
       display: block;
       color: #00376b;
     }
+  }
+  .signup{
+    padding: 5px 0;
+    margin: 10px 0 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: white;
+    margin-bottom: 20px;
+    
+    a{
+      color: #0095f6;
+    }
+  }
+  
+  .message-get{
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+  }
+
+  .appstore{
+    margin-right: 32px;
+    // margin-left: 0;
   }
 }

@@ -13,20 +13,21 @@ a {
   width: 935px;
   display: grid;
   grid-template-columns: 1fr 350px;
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
+  -moz-column-gap: 1.3rem;
+       column-gap: 1.3rem;
   margin: 0 auto;
   margin-top: 120px;
 }
 
 .pitch {
   height: 618px;
-  margin-left: 64px;
+  margin-left: 74px;
   background: url("imgs/phone.png") no-repeat center;
 }
 
 .form {
   text-align: center;
+  margin-bottom: 10px;
 }
 .form form {
   border: 1px solid rgb(219, 219, 219);
@@ -94,7 +95,6 @@ a {
 }
 .form form .login-with-facebook {
   color: #385185;
-  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,4 +103,22 @@ a {
 .form form .forgot-password {
   display: block;
   color: #00376b;
+}
+.form .signup {
+  padding: 5px 0;
+  margin: 10px 0 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: white;
+  margin-bottom: 20px;
+}
+.form .signup a {
+  color: #0095f6;
+}
+.form .message-get {
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+}
+.form .appstore {
+  margin-right: 32px;
 }/*# sourceMappingURL=style.css.map */
