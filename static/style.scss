@@ -10,7 +10,7 @@ a{
 }
 
 .container{
-  width: 935px;
+  width: 800px;
   display: grid;
   grid-template-columns: 1fr 350px;
   column-gap: 1.30rem;
@@ -20,8 +20,18 @@ a{
 
 .pitch{
   height: 618px;
-  margin-left: 64px;
+  position: relative;
   background: url('imgs/phone.png') no-repeat center;
+  
+  img{
+     position: absolute;
+    top: 20px;
+    height: 537px;
+    left: 133px;
+    width: 258px;
+    border-radius: 20px;
+
+  }
 }
 
 .form{
@@ -134,15 +144,23 @@ a{
 }
 
 .footer{
-  width: 650px;
   text-align: center;
+  width: 800px;
   margin: 0 auto;
 
   .links{
     margin-bottom: 20px;
+   
     a{
      color: #8e8e8e;
      font-size: 14px;
+     margin: 0 7px;
+    }
+    
+    .copyright{
+      margin: 20px 0;
+      font-size: 14px;
+      color: #8e8e8e;
     }
   }
 }
